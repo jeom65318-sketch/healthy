@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #0f131d;
+    color: #dfe2f1;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .font-sora {
+    font-family: 'Sora', sans-serif;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Glassmorphism Levels */
+.glass-card {
+  background: rgba(23, 27, 38, 0.75);
+  backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.5);
+}
+
+.glass-nav {
+  background: rgba(15, 19, 29, 0.85);
+  backdrop-filter: blur(24px) saturate(200%);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.6);
+}
+
+.glass-header {
+  background: rgba(15, 19, 29, 0.82);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glow-emerald {
+  box-shadow: 0 0 24px rgba(16, 185, 129, 0.25);
+}
+
+.glow-coral {
+  box-shadow: 0 0 24px rgba(249, 115, 22, 0.25);
+}
+
+.glow-indigo {
+  box-shadow: 0 0 24px rgba(99, 102, 241, 0.25);
+}
+
+.glow-rose {
+  box-shadow: 0 0 24px rgba(236, 72, 153, 0.25);
+}
+

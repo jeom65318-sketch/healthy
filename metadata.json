@@ -1,0 +1,6 @@
+{
+  "name": "VitalPulse - 바이탈펄스 스마트 건강관리",
+  "description": "실시간 걸음 수, 수면 리포트, 칼로리 소모 및 활동 분석 스마트 건강 파트너",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
